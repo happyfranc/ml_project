@@ -40,6 +40,10 @@
    - batch_size = 64
    - valid_batch_size = 50
 
-* MAE_loss
-   - train : 13.244482
-   - valid : 12.55080795288086
+* SCORE(같은 폴더 내 추출)
+   - public : 13.244482
+   - private : 12.55080795288086
+
+* SCORE(같은 종내 무작위 추출)
+   - public : 15.292053
+   - private : 14.207005500793457

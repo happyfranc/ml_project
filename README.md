@@ -44,6 +44,6 @@
    - public : 13.244482
    - private : 12.55080795288086
 
-* SCORE(같은 종내 무작위 추출)
+* SCORE(같은 종내 무작위 추출) > Data augmentation(증가) 가능성
    - public : 15.292053
    - private : 14.207005500793457

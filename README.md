@@ -28,7 +28,7 @@
    - s4 layer = nn.AvgPool2d(kernel_size=2, stride=2))
             16장의 54*54사이즈 특성 맵에  2*2를 stride = 2로 설정해서 서브 샘플링 진행, 46656 축소
    - c5 layer = nn.Flatten(), nn.Linear(16*54*54, 120), nn.ReLU(),  
-            16장의 54*54 사이즈 특성 맵을 120개 1*1 특성 맵 산출
+            평탄화(Flatten)으로 16장의 54*54 사이즈 특성 맵을 FC를 통해 노드를 120으로 축소
    - f6 layer = nn.Linear(120, 84), nn.ReLU(), nn.Linear(84, 10)
             84개의 유닛을 가진 피드포워드 신경망, c5의 결과를 84개 유닛에 연결
    - output layer = nn.Linear(10, 1)
